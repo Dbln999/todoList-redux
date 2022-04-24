@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.todo {
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+.todo div {
+  background-color: rgb(210, 210, 255);
+  border: 0;
+}
+.todos-true {
+  text-decoration: line-through;
+}
+.todoContainer {
+  width: 500px;
+  padding-bottom: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: rgb(210, 210, 255);
+}
+
+.valueAddition {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.valueAddition input {
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px rgb(212, 208, 208) solid;
+}
+.valueAddition input:focus {
+  outline: 1.5px rgb(207, 204, 204) solid;
+}
+.valueAddition button {
+  height: 40px;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(226, 226, 255);
+  cursor: pointer;
+  font-size: 18px;
+}
